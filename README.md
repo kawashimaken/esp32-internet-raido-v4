@@ -5,3 +5,5 @@ find kicad project files in [here](https://github.com/kawashimaken/esp32-interne
 I use KiCad 6.0.5 for this project.
 
 ![3d view](./pic/esp32_internet_radio_v4.jpg)
+
+* We can also use vertical pin socket for ENCODER. 
