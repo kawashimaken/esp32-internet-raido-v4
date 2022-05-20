@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 13)
+    (start_pass_no 14)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -54,10 +54,11 @@
   )
   (class default
     "ENCODER_GND" "ESPDUINO_IO0" "ESPDUINO_5V" "ENCODER_DT" /Vin RESET "ESPDUINO_IO2" "ESPDUINO_IO4"
-    /AREF "ESPDUINO_IO34" "ESPDUINO_IO38" "ESPDUINO_IO15" "unconnected-(P5-Pad1)" "unconnected-(P6-Pad1)" "unconnected-(P7-Pad1)" "unconnected-(P8-Pad1)"
+    /AREF "ESPDUINO_IO34" "ENCODER_CLK" "ESPDUINO_IO15" "unconnected-(P5-Pad1)" "unconnected-(P6-Pad1)" "unconnected-(P7-Pad1)" "unconnected-(P8-Pad1)"
     "ENCODER_SWITCH" "ESPDUINO_IO18" "ESPDUINO_IO19" "ESPDUINO_IO23" "ESPDUINO_IO5" "ESPDUINO_IO13" "ESPDUINO_IO12" "ESPDUINO_IO14"
     "ESPDUINO_IO27" "ESPDUINO_IO16" "ESPDUINO_IO33" "ESPDUINO_IO25" "ESPDUINO_IO26" "ESPDUINO_TX" "ESPDUINO_RX" "POWER_IN_5V_VCC"
-    "ESPDUINO_IO32" "PCM5102_SCK" "ESPDUINO_3.3V" /IOREF "ST7789_BLK" "TFT_MISO" "ESPDUINO_IO36"
+    "ESPDUINO_IO32" "PCM5102_SCK" "ESPDUINO_3.3V" /IOREF "ST7789_BLK" "TFT_MISO" "ESPDUINO_IO36" "unconnected-(P3-Pad1)"
+    "unconnected-(P3-Pad2)"
     (clearance_class default)
     (via_rule default)
     (rule
