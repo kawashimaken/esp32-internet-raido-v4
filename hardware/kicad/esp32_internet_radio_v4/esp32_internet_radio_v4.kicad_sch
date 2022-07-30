@@ -6,7 +6,7 @@
 
   (title_block
     (title "KEN ESP32 INTERNET RADIO HAT FOR ESPDUINO ")
-    (date "lun. 30 mars 2015")
+    (date "2022-06-21")
   )
 
   (lib_symbols
@@ -2127,8 +2127,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 89220290-cba7-40f6-a936-3cfbe958e446)
   )
-  (text "Shield for Arduino that uses\nthe same pin disposition\nlike \"Uno\" board Rev 3."
-    (at 158.75 21.59 0)
+  (text "Wemos D1 R32 extension shield" (at 158.75 21.59 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 9237f6ac-ba96-4e16-b270-c1c501af2d27)
   )
